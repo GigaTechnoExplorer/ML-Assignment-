@@ -14,6 +14,8 @@ Logistic Regression, Random Forest and Linear Regression.
 
 ## Your results
 
+Alcohol is the strongest predictor of alcohol 
+Complexity beyond about depth 7 adds training accuracy but no real test accuracy as seen in the last underfitting vs overfitting 
 Random Forest had the best test accuracy (81.2%, F1 0.83) but scored 100% on the training data, so it overfits. Logistic Regression scored 77.7% (5-fold CV accuracy 74.4%) and Linear Regression 78.6% (R² = 0.39 on the quality score).
 
 ## What did you learn?
